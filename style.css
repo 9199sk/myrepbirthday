@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.orfonline.org/public/uploads/posts/image/img-SDGs.jpg")center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 12px;
+}
+.col{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+
+}
